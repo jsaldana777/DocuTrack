@@ -1,3 +1,5 @@
+// Importo las rutas
+const authRoutes = require("./routes/authRoutes");
 
 // Levantar el servidor en el puerto 3000:
 const express = require('express');
@@ -6,6 +8,9 @@ const PORT = 3000;
 
 // Middleware para JSON:
 app.use(express.json());
+
+// Crea la ruta del API:
+app.use("/api/auth", authRoutes);
 
 // Enviar un param a la BBDD.
 // Respond es lo que se obtiene.
