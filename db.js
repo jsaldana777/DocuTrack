@@ -39,3 +39,6 @@ db.serialize(() => {
     }
   );
 });
+
+// 🔥 exportar la conexión para usar en authController.js
+module.exports = db;
