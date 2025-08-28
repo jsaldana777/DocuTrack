@@ -12,6 +12,9 @@ app.use(express.json());
 // Crea la ruta del API:
 app.use("/api/auth", authRoutes);
 
+// Crea la ruta del API:
+// app.use("/api/certificate", authRoutes);
+
 // Enviar un param a la BBDD.
 // Respond es lo que se obtiene.
 // IMPRIME EL MENSAJE EN PANTALLA, SOLO ES PARA QUE VEAMOS QUE SE PUEDE LEVANTAR EL API, NO TIENE NADA QUE VER CON EL FRONT-END.
