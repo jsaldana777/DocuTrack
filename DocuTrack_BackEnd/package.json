@@ -1,0 +1,28 @@
+{
+  "name": "docutrack",
+  "version": "1.0.0",
+  "description": "Proyectos para solicitar certificados de nacimiento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsaldana777/DocuTrack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jsaldana777/DocuTrack/issues"
+  },
+  "homepage": "https://github.com/jsaldana777/DocuTrack#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}
